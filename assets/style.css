@@ -290,7 +290,7 @@ footer p {
     .flex__nav a {
         text-align: center;
         cursor: pointer;
-             
+        padding: 0px;     
     }
 
     /* celulares */
