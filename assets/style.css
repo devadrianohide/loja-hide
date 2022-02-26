@@ -280,7 +280,7 @@ footer p {
 
     .flex__nav {
         display: flex;
-        justify-content:space-between;
+        justify-content:space-around;
         flex-wrap: wrap;
         background-color: green;
         padding: 10px;
