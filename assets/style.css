@@ -395,4 +395,9 @@ tr:nth-child(even) {
     .tabelacell img {
         width: 300px;
     }
+
+    tr:nth-child(even) {
+        background-color: var(--corazuldomenu);
+        color: #fff;
+    }
 }
