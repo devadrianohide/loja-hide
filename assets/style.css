@@ -357,7 +357,7 @@ footer p {
 }
 
 .tabelacell {
-    max-width: 350px;
+    max-width: 300px;
     position: relative;
     background-color: #fff;
     margin: 0 auto;
@@ -367,7 +367,7 @@ footer p {
 }
 
 .tabelacell img {
-    max-width: 350px;
+    max-width: 300px;
 }
 
 .tabelacell>thead>tr>th {
