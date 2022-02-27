@@ -332,7 +332,7 @@ footer p {
 }
 
 .tabelacell {
-    width: 600px;
+    width: 300px;
     position: relative;
     background-color: #fff;
     margin: 0 auto;
@@ -375,7 +375,7 @@ tr:nth-child(even) {
     text-shadow: 1px 1px 3px black;
 }
 
-@media screen and(max-width:600px) {
+@media only screen and(max-width:600px) {
     /*TABELA DE CELL*/
 
     .tabelacell {
@@ -399,5 +399,11 @@ tr:nth-child(even) {
     tr:nth-child(even) {
         background-color: var(--corazuldomenu);
         color: #fff;
+    }
+}
+
+@media only screen and(min-width: 600px) {
+    .tabelacell {
+        width: 700px;
     }
 }
