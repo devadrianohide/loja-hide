@@ -103,6 +103,10 @@ body {
     color: red;
   }
 
+.avisopreviso {
+    font-size: 0.5em;
+}
+
 .flex__nav {
     display: flex;
     justify-content: flex-end;
