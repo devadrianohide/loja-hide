@@ -34,8 +34,33 @@ body {
 .navmenu__principal {
     display: flex;
     justify-content: center;
-    
 }
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 1250px;}
+    from {top: -60px;}
+    to {top: -60px;}
+   
+  }
+
+#carrosel{
+    animation-timing-function: ease;
+    width: 200px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 8s 2;
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+
+  #carrosel img {
+      width: 150px;
+  }
 
 .navmenu__principal h1>a {
     color: var(--verdedahide);
