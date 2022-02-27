@@ -108,6 +108,11 @@ body {
     font-size: 0.4em;
 }
 
+.avisopreviolista {
+    background-color: red;
+    color: #fff;
+}
+
 .flex__nav {
     display: flex;
     justify-content: flex-end;
