@@ -8,6 +8,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 :root {
     --corazuldomenu:#000015;
     --verdedahide: green;
@@ -24,14 +26,15 @@ body {
 
 .o-header {
     background-color: var(--corazuldomenu);
-    height: 10vh;
+    height: 12vh;
     border-bottom: 1px solid white;
+    
 }
 
 .navmenu__principal {
     display: flex;
     justify-content: center;
-    padding-top: 3vh;
+    
 }
 
 .navmenu__principal h1>a {
@@ -43,11 +46,19 @@ body {
 .o-header h1 {
     font-family: 'Anton', sans-serif;
     color: var(--verdedahide);
-    font-size: 3.5em;
+    font-size: 4em;
 }
 
 .o-header h1:hover {
     text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.59);
+}
+
+.o-header h1::after {
+    content: "Eletrônics";
+    display: block;
+    font-family: 'Satisfy', cursive;
+    font-size:0.5em ;
+    color: white;
 }
 
 .o-header span {
@@ -57,6 +68,7 @@ body {
 .flex__nav {
     display: flex;
     justify-content: flex-end;
+    padding-top: 20px;  
     background-color: var(--verdedahide);
     border-radius: 5px;
    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.302);
@@ -322,6 +334,19 @@ footer p {
         margin: 20px 0px;
     }
   
+    .o-section2>h3 {
+        font-family: 'Smooch Sans', sans-serif;
+        color: #FF6A08;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .aqui {
+        text-decoration: underline;
+    }
+
 }
 
 
