@@ -86,7 +86,7 @@ body {
 
 main {
     font-family: 'Rubik', sans-serif;
-    padding-top: 50px;    
+    padding-top: 50px;  
 }
 
 .main__total h2 {
@@ -106,6 +106,9 @@ main {
     background-color: var(--corazuldomenu);
     box-shadow: 0px 1px 10px rgba(89, 89, 89, 0.248);
     transition: 1s; 
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .main__total:hover {
@@ -120,8 +123,7 @@ main {
 
 .o-section1 {
     width: 100%;
-    margin: 0 auto;
-
+    margin: 0 auto; 
 }
 
 .listaDeProdutos1 {
@@ -232,6 +234,7 @@ img.bannerxiaomi {
 /*COMEÇO DO FOOTER*/
 
 footer {
+    margin-top: 50px;
     height: 100px;
     background-color: var(--corazuldomenu);
 }
