@@ -257,7 +257,7 @@ footer p {
 /*MEDIA QUERIES*/
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
       
     .o-header {
         padding-bottom: 100px;
@@ -303,7 +303,7 @@ footer p {
   
 }
 
-@media screen and(max-width:400px) {
+@media screen and(max-width:600px) {
         /*TABELA DE CELL*/
 
         .tabelacell {
