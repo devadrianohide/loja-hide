@@ -104,7 +104,8 @@ body {
   }
 
 .avisopreviso {
-    font-size: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.4em;
 }
 
 .flex__nav {
