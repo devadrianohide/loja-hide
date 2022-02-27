@@ -331,20 +331,43 @@ footer p {
 
 /*CSS PAGINA DE CONSERTO DE TELAS =======================================================================================================================================================================================================================================*/
 
+.tabela_de_celulares article {
+    margin-bottom: 50px;
+}
+
+.tabela_de_celulares article>h2 {
+    font-family: 'Smooch Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+
+.tabela_de_celulares article>p {
+    font-family: 'Smooch Sans', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+}
+
+
 .main-tabelacell {
     background-color: var(--corazuldomenu);
 }
 
-
-
-
 .tabelacell {
+    max-width: 350px;
     position: relative;
     background-color: #fff;
     margin: 0 auto;
     border-collapse: collapse;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.604);
+}
+
+.tabelacell img {
+    max-width: 350px;
 }
 
 .tabelacell>thead>tr>th {
@@ -377,22 +400,3 @@ tr:nth-child(even) {
     text-shadow: 1px 1px 3px black;
 }
 
-.tabela_de_celulares article {
-    margin-bottom: 50px;
-}
-
-.tabela_de_celulares article>h2 {
-    font-family: 'Smooch Sans', sans-serif;
-    text-align: center;
-    color: white;
-    font-size: 3em;
-}
-
-
-.tabela_de_celulares article>p {
-    font-family: 'Smooch Sans', sans-serif;
-    text-align: center;
-    font-weight: 500;
-    font-size: 2em;
-    color: white;
-}
