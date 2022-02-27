@@ -306,6 +306,10 @@ footer p {
 @media screen and(max-width:400px) {
         /*TABELA DE CELL*/
 
+        .tabelacell {
+            width: 300px;
+        }
+
         .tabelacell td {
             border: 1px solid black;
             font-size: 1em;
