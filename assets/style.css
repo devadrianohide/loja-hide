@@ -602,7 +602,7 @@ div.divpreco2 {
     display: flex;
     background-color: #FFFAFF;
     padding: 20px;
-    width: 400px ;
+    width: 300px ;
     margin: 0 auto;
     border-radius: 10px;
     
@@ -630,7 +630,7 @@ div.divpreco2>p {
     margin: 0 auto;
     min-width: 200px;
     padding: 20px;
-    width: 440px;
+    width: 350px;
     box-sizing: border-box;
 }
 
