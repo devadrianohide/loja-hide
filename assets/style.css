@@ -10,6 +10,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300;500;700;900&display=swap');
+
 :root {
     --corazuldomenu:#000015;
     --verdedahide: green;
@@ -568,3 +570,84 @@ div.iframe-mapa>iframe {
     width: 50%;
 }
 
+
+/*COMEÇA PAGINA CALCULADORA DE TAXAS*/
+
+
+#main-calculadora-flex {
+    display: flex;
+}
+
+
+section.calculadorastone {
+    background-color: #9B1D20;
+    width: 940px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h1.h1calculadora {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+div.divpreco2 {
+    display: flex;
+    background-color: #FFFAFF;
+    padding: 20px;
+    width: 400px ;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+input#valorproduto{
+    padding: 10px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.somar {
+    padding: 10px;
+    margin-left: 2px;
+}
+
+div.divpreco2>p {
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.flex-calculadora {
+    margin: 0 auto;
+    min-width: 200px;
+    padding: 20px;
+    width: 440px;
+    box-sizing: border-box;
+}
+
+
+.flex-calculadora div {    
+    height: 50px;
+    background-color: #fff;
+    margin: 10px 0;
+    color: var(--corazuldomenu);
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+.flex-calculadora p {
+    
+    text-align: center;
+}
