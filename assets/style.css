@@ -12,9 +12,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300;500;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 :root {
     --corazuldomenu:#000015;
     --verdedahide: green;
+    --xiaomicor: #F76600;
 }
 
 * {
@@ -650,4 +656,86 @@ div.divpreco2>p {
 .flex-calculadora p {
     
     text-align: center;
+}
+
+
+/*Pagina de celulares da Xiaomi*/
+
+
+
+#banner-pagina-xiaomi {
+    width: 100vw;
+}
+
+.section-aparelhos-xiaomi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.divdescriptionxiaomi {
+    background-color: #ff6b084b;
+    margin: 10px;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.divdescriptionxiaomi h3 {
+    text-align: center;
+    color: var(--corazuldomenu);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    background-color: #f2efec;
+    text-shadow: 2px 2px 5px #F76600;
+    padding: 5px;
+}
+
+.section-aparelhos-xiaomi>div {
+    background-image: linear-gradient(to right,#f2efec, var(--xiaomicor));
+    width: 300px;
+    max-width: 300px;
+    height: 600px;
+    margin: 10px auto;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.548);
+}
+
+
+.section-aparelhos-xiaomi img {
+  margin-left: 50px;
+  margin-top: 20px;
+  
+}
+
+
+.titulo-xiaomi {
+    background-color: var(--corazuldomenu);
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    color: var(--xiaomicor) ;
+    font-size: 3em;
+    box-shadow: 0px 0px 30px 10px  rgba(255, 255, 255, 0.124);
+   margin-bottom: 50px;
+}
+
+.description-gberam {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.description-gberam strong {
+    font-weight: bold;
+}
+
+.precoxiaomi {
+    background-color: #f2efec;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 5px;
 }
