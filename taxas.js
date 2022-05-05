@@ -4,18 +4,18 @@ function start(){
 
     
     
-    var resultado1 = ((valorrecebido2*2.80)/100)+valorrecebido2
-    var resultado2 = ((valorrecebido2*4.19)/100)+valorrecebido2
-    var resultado3 = ((valorrecebido2*4.83)/100)+valorrecebido2
-    var resultado4 = ((valorrecebido2*5.46)/100)+valorrecebido2
-    var resultado5 = ((valorrecebido2*6.11)/100)+valorrecebido2
-    var resultado6 = ((valorrecebido2*6.76)/100)+valorrecebido2
-    var resultado7 = ((valorrecebido2*7.40)/100)+valorrecebido2
-    var resultado8 = ((valorrecebido2*8.04)/100)+valorrecebido2
-    var resultado9 = ((valorrecebido2*8.68)/100)+valorrecebido2
-    var resultado10 = ((valorrecebido2*9.32)/100)+valorrecebido2
-    var resultado11 = ((valorrecebido2*9.96)/100)+valorrecebido2
-    var resultado12 = ((valorrecebido2*10.59)/100)+valorrecebido2
+    var resultado1 = ((valorrecebido2*2.88)/100)+valorrecebido2
+    var resultado2 = ((valorrecebido2*4.42)/100)+valorrecebido2
+    var resultado3 = ((valorrecebido2*5.17)/100)+valorrecebido2
+    var resultado4 = ((valorrecebido2*5.93)/100)+valorrecebido2
+    var resultado5 = ((valorrecebido2*6.68)/100)+valorrecebido2
+    var resultado6 = ((valorrecebido2*7.43)/100)+valorrecebido2
+    var resultado7 = ((valorrecebido2*8.19)/100)+valorrecebido2
+    var resultado8 = ((valorrecebido2*8.94)/100)+valorrecebido2
+    var resultado9 = ((valorrecebido2*9.69)/100)+valorrecebido2
+    var resultado10 = ((valorrecebido2*10.45)/100)+valorrecebido2
+    var resultado11 = ((valorrecebido2*11.20)/100)+valorrecebido2
+    var resultado12 = ((valorrecebido2*11.96)/100)+valorrecebido2
 
 
     var resultado22 = (valorrecebido2/2).toFixed(2)
